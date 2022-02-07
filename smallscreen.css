@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  display: flex;
+  background-color: cornflowerblue;
+  color: #fff;
+  height: 40px;
+}
+
+.banner a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.announcement {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.announcement img {
+  margin-right: 8px;
+}
+
+.close {
+  text-align: right;
+  align-items: center;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+
+.close img {
+  width: 10px;
+  height: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+}
+
+.menu li {
+  padding: 0px 10px;
+}
+
+.logo-and-menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  height: 15px;
+}
+
+.new-container {
+  display: flex;
+  float: right;
+  margin-left: 5px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: 9pt;
+  font-weight: 600;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.new-container p {
+  font-size: 9pt;
+  font-weight: 500;
+  color: #fff;
+}
+
+.hiring-button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 40px;
+  align-items: center;
+}
+/*** menu needs to be changed ***/
+
+.hero-frame {
+  position: relative;
+  height: 375px;
+  left: 0%;
+  right: 0%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
+  margin-top: 120px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.hero h1 {
+  font-size: 36pt;
+  font-family: "Poppins";
+  line-height: 40pt;
+}
+
+.connect {
+  float: right;
+  width: 448px;
+  height: 350px;
+  max-width: 100%;
+}
+
+.hero .subheader {
+  font-size: 15pt;
+  margin-top: 8px;
+}
+
+.app-download {
+  display: flex;
+  margin-top: 25px;
+  width: 70%;
+}
+
+.app-download p {
+  color: darkslategrey;
+  font-size: 15px;
+  text-align: left;
+}
+
+.app-download .google-play-store {
+  height: 61px;
+  width: 160px;
+}
+
+.app-download .divider {
+  width: 2px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.after-hero-banner {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.after-hero-banner {
+  font-size: 12pt;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.stats h3 {
+  font-size: 28px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.downloads {
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+}
+
+.jobs {
+  text-align: center;
+}
+
+.placed {
+  text-align: center;
+}
+
+.showcase {
+  transition: 0.5s;
+}
+
+.mobile-nav {
+  display: flex;
+  background-color: #f2f2f2;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+/**
+.toggle.active {
+  position: relative;
+  background: url(imgs/close.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.showcase.active {
+  right: 300px;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu ul {
+  position: relative;
+}
+
+.mobile-menu ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+} **/
+
+@media screen and (max-width: 839px) and (min-width: 600px) {
+  div.navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 840px) and (max-width: 2000px) {
+  div.mobile-nav {
+    display: none;
+  }
+  div.mobile-menu {
+    display: none;
+  }
+}

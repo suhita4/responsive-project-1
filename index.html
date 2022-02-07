@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" media="screen and (max-width: 4000px) and (min-width: 1100px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 1099px)and (min-width: 870px)" href="midscreen.css">
+  <link rel="stylesheet" media="screen and (min-width: 816px) and (max-width: 869px)" href="smallscreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 815px) and (min-width: 400px)" href="mobilescreen.css">
+ 
+  <title>Almabetter | Connecting talent with opportunities</title>
+</head>
+<body>
+  <div class="showcase">
+    <div class="banner">
+      <div class="announcement">
+        <img src="imgs\Announcement.svg" alt="mic icon">
+      <p>We've helped 5 million students get placed. <a href="#">Read more.</a></p>
+      </div>
+      <div class="close">
+        <img src="imgs\CloseWhite.svg" alt="close icon">
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="logo-and-menu">
+      <img src="imgs\Almabetter.svg" alt="logo" class="logo">
+        <ul class="menu">
+          <li>Home</li>
+          <li>Internships</li>
+          <li>Programs 
+            <div class="new-container">
+              <p>NEW</p>
+            </div>
+          </li>
+          <li>Partners</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+      <button class="hiring-button">We are hiring!</button>
+      </div>
+    </div>
+
+    <div class="mobile-nav">
+      <div class="mobile-logo">
+        <img src="imgs\Almabetter.svg" alt="logo" class="tiny-logo">
+      </div>
+      <div class="toggle"> 
+        <img src="imgs\menu.png" alt="menu icon">
+      </div>
+    </div>
+    
+<!--
+    <div class="mobile-menu">
+      <ul>
+        <li>Home</li>
+        <li>Internships</li>
+        <li>Programs</li>
+          <div class="new-container">
+            <p>NEW</p>
+          </div>
+        <li>Partners</li>
+        <li>Contact</li>
+      </ul>
+    </div> -->
+
+    <div class="hero-frame">
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Fast-track your future.</h1>
+          <p class="subheader">We help you connect with opportunities.</p>
+        </div>
+        <div class="hero-image">
+          <img src="imgs\Connect.svg" alt="illustration of people connecting" class="connect">
+        </div>
+        <div class="app-download">
+          <a href="#">
+          <img src="imgs\google-play-badge.png" alt="Download from Google Play Store" class="google-play-store"></a>
+          <img src="imgs\divider.png" alt="divider" class="divider">
+          <p>iOS app coming soon</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="after-hero-banner">
+      <p>Join our pro program and get placed!</p>
+    </div>
+    <div class="stats">
+      <div class="downloads">
+        <img src="imgs\Download.svg" alt="icon">
+        <h3>5.7L+</h3>
+        <p>Downloads</p>
+      </div>
+      <div class="partners">
+        <img src="imgs\People.svg" alt="icon">
+        <h3>150+</h3>
+        <p>Hiring partners</p>
+      </div>
+      <div class="jobs">
+        <img src="imgs\Work.svg" alt="icon">
+        <h3>2.4L+</h3>
+        <p>Jobs and Internships</p>
+      </div>
+      <div class="placed">
+        <img src="imgs\Growth.svg" alt="icon">
+        <h3>1.6L+</h3>
+        <p>Students placed</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+  
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+  </script>
+</body>
+</html>

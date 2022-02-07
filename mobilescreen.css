@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  display: flex;
+  background-color: cornflowerblue;
+  color: #fff;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.banner a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.announcement {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  font-size: 11pt;
+}
+
+.announcement img {
+  margin-right: 8px;
+}
+
+.close {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.close img {
+  width: 10px;
+  height: 10px;
+}
+
+.mobile-nav {
+  display: flex;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hero-frame {
+  position: relative;
+  height: 375px;
+  left: 0%;
+  right: 0%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.hero h1 {
+  font-size: 32pt;
+  font-family: "Poppins";
+  line-height: 34pt;
+}
+
+.connect {
+  position: relative;
+  margin-top: 30px;
+  width: 418px;
+  height: 320px;
+  max-width: 100%;
+}
+
+.hero .subheader {
+  font-size: 13pt;
+  margin-top: 8px;
+}
+
+.app-download {
+  display: flex;
+  margin-top: 30px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-download p {
+  color: darkslategrey;
+  font-size: 15px;
+  text-align: left;
+}
+
+.app-download .google-play-store {
+  height: 61px;
+  width: 160px;
+}
+
+.app-download .divider {
+  width: 2px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.after-hero-banner {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.after-hero-banner {
+  font-size: 12pt;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.stats {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  row-gap: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.stats h3 {
+  font-size: 28px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.downloads {
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+}
+
+.jobs {
+  text-align: center;
+}
+
+.placed {
+  text-align: center;
+}
+
+@media screen and (max-width: 839px) and (min-width: 400px) {
+  div.navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 840px) and (max-width: 2000px) {
+  div.mobile-nav {
+    display: none;
+  }
+  div.mobile-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .subheader {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .after-hero-banner {
+    margin-top: 235px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 815px) {
+  .after-hero-banner {
+    margin-top: 185px;
+    width: 100%;
+  }
+}
